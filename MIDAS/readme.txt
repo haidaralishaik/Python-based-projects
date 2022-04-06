@@ -1,5 +1,6 @@
-                                                                                 			MULTIPLE IMPUTATION USING DENOISING AUTOENCODERS:
-
+                                                       MULTIPLE IMPUTATION USING DENOISING AUTOENCODERS:
+there are 3 types of datasets: numerical, categorical and, numerical+categorical.
+each of the dataset is preinduced with missingness. the project is to impute missing values in the data and make a comparision with original data(completed
 
 Procedure to install all the necessary softwares/packages to run the code successfully:
 
