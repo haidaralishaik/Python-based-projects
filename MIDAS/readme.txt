@@ -1,6 +1,7 @@
                                                        MULTIPLE IMPUTATION USING DENOISING AUTOENCODERS:
 there are 3 types of datasets: numerical, categorical and, numerical+categorical.
-each of the dataset is preinduced with missingness. the project is to impute missing values in the data and make a comparision with original data(completed
+each of the dataset is preinduced with missingness. the project is to impute missing values in the data and make a comparision with original data(completed)
+numerical data is compared using NRMSE formula while, Categorical data is compared using AE formula. both formulae are written in thr program comments.
 
 Procedure to install all the necessary softwares/packages to run the code successfully:
 
@@ -29,14 +30,14 @@ Use the following commands on the Jupter notebook or in the CMD.exe Prompt from 
 5. 	matplotlib: pip install matplotlib
 6.	statmodels" pip install statsmodels
 7.	scipy: pip install scipy
-8.	MIDASpy: pip install MIDASpy
+8.	MIDASpy: pip install MIDASpy (for its functions, please head on to MIDASpy github page(you can search on google)
 
 Note: If you are using anaconda navigator's CMD.exe prompt, then use 'conda' instead of 'pip' in the above commands (recommended for ease of installation).
 
 
 Note: Import all the aforementioned libraries in the jupyter notebook using ‘import’ statement. MIDASpy package is the heart of the project
 
-Note: This zip file contains this readme.txt file along with the program codes for EACH dataset in different folders. There is no need to edit any hyperparameters from the program.
+Note: This file contains this readme.txt file along with the program codes for EACH dataset in different folders. There is no need to edit any hyperparameters from the program.
           You HAVE TO edit the root location of the dataset (for the incomplete dataset as well the complete dataset) in the program instead of the one already present in the code. 
           There are two lines in the code where you should edit this (one for incomplete and another for complete dataset)
 
